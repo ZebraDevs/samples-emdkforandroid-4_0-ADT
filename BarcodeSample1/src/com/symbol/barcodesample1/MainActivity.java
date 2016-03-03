@@ -98,6 +98,7 @@ public class MainActivity extends Activity implements EMDKListener, DataListener
 		checkBoxCode128.setOnCheckedChangeListener(this);
 		
 		addSpinnerScannerDevicesListener();
+		populateTriggers();
 		addSpinnerTriggersListener();
 		addStartScanButtonListener();
 		addStopScanButtonListener();
@@ -106,7 +107,7 @@ public class MainActivity extends Activity implements EMDKListener, DataListener
 		textViewData.setSelected(true);
 		textViewData.setMovementMethod(new ScrollingMovementMethod());
 		
-		populateTriggers();
+		
 		
 		deviceList = new ArrayList<ScannerInfo>();
 
