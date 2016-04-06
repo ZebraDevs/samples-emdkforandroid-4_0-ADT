@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+   	    <TextView
+	    	android:id="@+id/text_BatteryLevel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatteryTemp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatteryVolt"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatteryState"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatterySource"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BackupBatteryVoltage"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatteryManufactureDate"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatterySerialNumber"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatteryPartNumber"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatteryUniqueID"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatteryRatedCapacity"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text_BatteryChargeCycleCount"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/Unknown"
+			android:layout_marginLeft="20dp"
+		    android:textAppearance="?android:attr/textAppearanceSmall" >
+		</TextView>
+	</LinearLayout>
+</ScrollView>

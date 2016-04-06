@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Battery Sample Application</string>
+    <string name="title_activity_main">Battery Sample Application</string>
+    <string name="Unknown">Unknown</string>
+    <string name="BatteryLevel">Battery Level = </string>
+    <string name="BatteryTemp">Battery Temperature = </string>
+    <string name="BatteryVolt">Battery Voltage = </string>
+    <string name="BackupBatteryVoltage">Backup Battery Voltage = </string>
+    <string name="BatteryManufactureDate">Battery Manufacture Date = </string>
+    <string name="BatterySerialNumber">Battery Serial Number = </string>
+    <string name="BatteryPartNumber">Battery Part Number = </string>
+    <string name="BatteryUniqueId">Battery Unique ID = </string>
+    <string name="BatteryRatedCapacity">Battery Rated Capacity = </string>
+    <string name="BatteryChargeCycleCount">Battery Charge Cycle Count = </string>
+    <string name="BatteryStateCharging">Battery Status = Charging</string>
+    <string name="BatteryStateDischarging">Battery Status = Discharging</string>
+    <string name="BatteryStateFull">Battery Status = Full</string>
+    <string name="BatteryStateNotcharging">Battery Status = Not Charging</string>
+    <string name="BatteryStateUnknown">Battery Status = Unknown</string>
+    <string name="BatterySourceOnbattery">Power Source = On Battery</string>
+    <string name="BatterySourceOnAC">Power Source = On AC</string>
+    <string name="BatterySourceOnusb">Power Source = On USB</string>
+    <string name="Volts">volts</string>
+    <string name="degreesC">degrees C</string>
+    
+</resources>
